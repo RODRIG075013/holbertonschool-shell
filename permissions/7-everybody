@@ -1,4 +1,4 @@
 #!/bin/bash
-chmod x+ (ugo)
+chmod x+ux+gx+o
 
 
