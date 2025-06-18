@@ -1,10 +1,5 @@
-cat << 'EOF' > 11-directories_permissions
 #!/bin/bash
-for dir in *
-do
-  if [ -d "$dir" ]
-  then
-    chmod a+x "$dir"
-  fi
-done
-EOF
+for dir in *; do if [ -d "$dir" ]; then chmod a+x "$dir"; fi; done
+
+~
+~
